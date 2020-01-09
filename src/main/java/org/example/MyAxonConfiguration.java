@@ -36,7 +36,7 @@ class MyAxonConfiguration {
                 .eventSerializer(JacksonSerializer.defaultSerializer())
                 .build();
     }
-
+    /*
     @Bean
     public SimpleCommandBus commandBus(TransactionManager txManager, AxonConfiguration axonConfiguration) {
         SimpleCommandBus commandBus =
@@ -62,4 +62,5 @@ class MyAxonConfiguration {
                 .queryUpdateEmitter(axonConfiguration.getComponent(QueryUpdateEmitter.class))
                 .build();
     }
+    */
 }
